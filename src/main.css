@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+:root {
+    --background-blue-color:#048ABF;
+    --main-blue-color: #04B2D9;
+    --secondary-orange-color: #F27405;
+    --third-red-color:#E50027;
+    --fourth-red-color: #00DC7F;
+}
+
+.menu {
+    z-index: 1;
+    position: relative;
+    ul{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        list-style: none;
+    }
+    li{
+        text-decoration: none;
+    }
+    li a{
+        text-decoration: none;
+        color:white;
+    }
+}
+
+#alerts {
+    position: absolute;
+    bottom: 10px;
+    z-index: 1;
+    width: 300px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.error-message-auth {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin: 4% auto;
+    text-align: center;
+    font-size: 20px;
+    background-color: red;
+    border-radius: 20px;
+    height: 40px;
+}
+
+.email-message-auth {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    margin: 4% auto;
+    text-align: center;
+    font-size: 20px;
+    background-color: green;
+    border-radius: 20px;
+    height: 40px;
+}
+
+
+
+.hide {
+    display: none;
+}
