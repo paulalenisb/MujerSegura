@@ -8,23 +8,6 @@
     --fourth-red-color: #00DC7F;
 }
 
-.menu {
-    z-index: 1;
-    position: relative;
-    ul{
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        list-style: none;
-    }
-    li{
-        text-decoration: none;
-    }
-    li a{
-        text-decoration: none;
-        color:white;
-    }
-}
 
 #alerts {
     position: absolute;
@@ -62,8 +45,6 @@
     border-radius: 20px;
     height: 40px;
 }
-
-
 
 .hide {
     display: none;

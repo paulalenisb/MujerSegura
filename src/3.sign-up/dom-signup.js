@@ -55,7 +55,7 @@ export default () => {
   };
 
   // Por cada input del formulario me  ejecuta un eventlistener
-  inputs.forEach((input) => {
+  inputs.forEach(input => {
     input.addEventListener('blur', validateForm);
   });
 
@@ -97,11 +97,6 @@ export default () => {
         .classList.add('form-message-active');
     }
   });
-  /* ------ SIGNUP (REGISTRARSE) GOOGLE -------*/
-  const googleButtonSignUp = divElement.querySelector('#sign-in-google');
 
-  googleButtonSignUp.addEventListener('click', (e) => {
-    authGoogleAccount();
-  });
   return divElement;
 };

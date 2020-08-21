@@ -13,11 +13,10 @@ export default () => {
       location: {lat: 4.7110, lng: 74.0721}  
     }
     
-    const map = new google.maps.Map(
-        document.getElementById('map'), options
-        );
+    //Mostrar el mapa de bogotá 
+    const map = new google.maps.Map(document.getElementById('map'), options);
     
-    const marker = new google.maps.Marker({position: location, map: map});
+    const marker = new google.maps.Marker({position: options.location, map: map});
 
   };
 

@@ -91,11 +91,11 @@ export default () => {
   });
   
   /* ------ SIGNUP (REGISTRARSE) GOOGLE -------*/
-  const googleButtonSignUp = divElement.querySelector('#sign-in-google');
+  /* const googleButtonSignUp = divElement.querySelector('#sign-in-google');
 
   googleButtonSignUp.addEventListener('click', (e) => {
     authGoogleAccount();
-  });
+  });*/
 
   return divElement;
 };

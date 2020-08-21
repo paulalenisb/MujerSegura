@@ -1,6 +1,3 @@
-// Este es el punto de entrada de tu aplicacion
-
-
 import { router } from './router/index.routes.js';
 import './main.css';
 
