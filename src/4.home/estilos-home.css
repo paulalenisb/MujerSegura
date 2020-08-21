@@ -9,6 +9,10 @@
     --fourth-red-color: #00DC7F;
   }
 
+  #map{
+    height:400px;
+    width: 100%;
+  }
 
 
 

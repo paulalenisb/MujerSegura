@@ -75,7 +75,6 @@
 
 .btn-submit {
     font-size: 16px;
-    /* background-color: $gray-opacity; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -84,10 +83,10 @@
     border: none;
     border-radius: 20px;
     width: 60%;
-    max-width: 250px;
     height: 40px;
     outline: none;
-    color: $white;
+    background-color: var(--secondary-orange-color);
+
     font-weight: bold;
     margin-bottom: 20px;
 }
@@ -155,10 +154,10 @@ a {
 }
 
 /*--------- ESTILOS TABLET ---------*/
-@media screen and (min-width: 768px) {
+/* @media screen and (min-width: 768px) {
     
     .sign-up {
-        /* // background: url(../images/Mobile_bg_Leratto.jpg) center no-repeat; */
+        background: url(../images/Mobile_bg_Leratto.jpg) center no-repeat;
         background-attachment: fixed;
         background-size: cover;
     } 
@@ -187,10 +186,10 @@ a {
     .text-sn-sign-up{
         font-size: 1.15em;
     }
-}
+} */
 
 /*--------- ESTILOS DESKTOP ---------*/
-@media screen and (min-width: 1024px) {
+/* @media screen and (min-width: 1024px) {
 
     .logo{
         width: 170px;
@@ -198,7 +197,7 @@ a {
     }
 
     .sign-up-login {
-        /* // background: url(../images/backgroung_Leratto.JPG) center no-repeat; */
+        background: url(../images/backgroung_Leratto.JPG) center no-repeat; 
         background-attachment: fixed;
         background-size: cover;
         box-sizing: border-box;
@@ -218,6 +217,4 @@ a {
         justify-content: center;
         align-items: center;
     }
-
-   
-}
+} */

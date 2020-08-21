@@ -2,9 +2,24 @@
   <div id="map"></div>
 
 </section>
-<!-- <script defer
-  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB3NTlD6J06nYgxUGDmQ951u9pJ4DVkUmc&callback=initMap">
-</script> -->
+<script>
+  function initMap() {
+    
+    const options ={
+      zoom: 15,
+      location: {lat: 4.7110, lng: 74.0721}  
+    }
+    
+    //Mostrar el mapa de bogotá 
+    const map = new google.maps.Map(document.getElementById('map'), options);
+    
+    const marker = new google.maps.Marker({position: options.location, map: map});
+
+  };
+</script>
+<script defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCTcjQ9CSiGDj8g8gpP7J9XWZnDMr9ZrVU&callback=initMap">
+</script>
 
 <!-- rules_version = '2';
 service cloud.firestore {
