@@ -8,10 +8,13 @@ export default () => {
 
   function initMap() {
     
-    const location  = {lat: 4.7110, lng: 74.0721};
+    const options ={
+      zoom: 15,
+      location: {lat: 4.7110, lng: 74.0721}  
+    }
     
     const map = new google.maps.Map(
-        document.getElementById('map'), {zoom: 15, center: location}
+        document.getElementById('map'), options
         );
     
     const marker = new google.maps.Marker({position: location, map: map});
