@@ -198,10 +198,7 @@ content: contentString
 console.log(infowindow)
 marker.addListener('click', function() {
 infowindow.open(map, marker);
-
 });
-
-
 
 let markeS = new google.maps.Marker({
 position:{
