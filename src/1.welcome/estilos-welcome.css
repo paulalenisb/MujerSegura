@@ -20,8 +20,20 @@
     justify-content: center;
 }
 
-.welcome-logo-img{
-    width:200px;
+.welcome p {
+    color:white;
+    text-align: center;
+}
+
+.logo-mujer-segura {
+    width: 70%;
+    height: auto;
+}
+.image-mujeres-seguras {
+    position: fixed;
+    bottom: 0;
+    width: 80%;
+    height: auto;
 }
 
 .welcome-title{
@@ -29,3 +41,8 @@
     font-size: 18px;
 }
 
+.info{
+padding: 30px;
+padding-top:0px;
+text-align: justify;
+}

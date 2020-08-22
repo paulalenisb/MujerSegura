@@ -37,11 +37,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    color:white;
+    color:gray;
     margin: 4% auto;
     text-align: center;
     font-size: 20px;
-    background-color: green;
+    background-color:white;
     border-radius: 20px;
     height: 40px;
 }

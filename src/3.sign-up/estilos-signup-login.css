@@ -27,14 +27,15 @@ body {font-family: var(--font);}
     justify-content: center;
 }
 
-.logo {
-    background-color: greenyellow;
-    width: 150px;
-    height: 150px;
-    /* height: auto; */
-    margin: auto;
+.logo-auth {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-
+.logo-mujer-segura-auth {
+    width: 70%;
+    height: auto;
+}
 /* .form-sign-up {
     margin-top: 40px;
 } */

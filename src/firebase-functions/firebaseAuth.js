@@ -20,7 +20,7 @@ export const exit = () => {
 /* ------ SEND EMAIL -------*/
 const sendEmail = () => {
   const config = {
-    url: 'http://localhost:8080/#/welcome',
+    url: 'http://localhost:8080/',
   };
   const user = firebase.auth().currentUser;
   user
@@ -148,4 +148,5 @@ export const loginUser = (email, password) => {
 //   }
 //   return db.doc(`/users/${uid}`).set(userData,  {merge: true});
 // }
+
 
