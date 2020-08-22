@@ -20,7 +20,7 @@ export const exit = () => {
 /* ------ SEND EMAIL -------*/
 const sendEmail = () => {
   const config = {
-    url: 'http://localhost:8080/',
+    url: 'https://anarativa09.github.io/MujerSegura/#/login',
   };
   const user = firebase.auth().currentUser;
   user
