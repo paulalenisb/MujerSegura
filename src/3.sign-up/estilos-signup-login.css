@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
 :root {
     --background-blue-color:#048ABF;
@@ -7,7 +7,12 @@
     --third-red-color:#E50027;
     --fourth-red-color: #00DC7F;
     --fifth-white-color:#FFFFFF;
+
+    --font: 'Montserrat';
+
 }
+
+body {font-family: var(--font);}
 
 .sign-up-login {
     background: var(--background-blue-color);
@@ -20,12 +25,17 @@
 }
 
 .logo {
-    /* // background: url(../images/Logo_Leratto.png) center no-repeat; */
-    background-size: cover;
+    background-color: var(---secondary-orange-color);
     width: 150px;
     height: 150px;
+    /* height: auto; */
     margin: auto;
 }
+
+/* .form-sign-up {
+    margin-top: 40px;
+} */
+
 
 .form-input, .form-group-input {
     background: none;
@@ -43,13 +53,13 @@
     margin: 20px auto;
 }
 
+::placeholder {
+    color: var(--fifth-white-color)
+}
+
 .form-group-input {
     justify-content: center;
     align-items: center;
-}
-
-.form-sign-up {
-    margin-top: 40px;
 }
 
 .text-password {
@@ -74,21 +84,22 @@
 }
 
 .btn-submit {
-    font-size: 16px;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     margin: 35px auto;
+    width: 60%;
+    max-width: 250px;
+    height: 40px;
     border: none;
     border-radius: 20px;
-    width: 60%;
-    height: 40px;
     outline: none;
     background-color: var(--secondary-orange-color);
-
+    color: var(--fifth-white-color);
+    box-shadow:5px 5px 5px rgba(0, 0, 0, 0.058);
+    font-size: 16px;
     font-weight: bold;
-    margin-bottom: 20px;
 }
 
 .text-sn-sign-up {
@@ -96,39 +107,14 @@
     margin-top: 15px;
 }
 
-.sn-sign-up {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
-.btn-sn-sign-up{
-    /* background-color: $gray-opacity; */
-    border-radius: 15px;
-    border: none;
-    margin: 0px 10px;
-    width: 51px;
-}
-
-.sn-sign-up i{  
-    font-size: 22px;
-    color: var(--fifth-white-color);
-    padding: 5px 0;
-}
-
 a {
     text-decoration: none;
     color: var(--fifth-white-color);
 }
 
-.form-message, .form-message-successful {
-    display: none;
-}
+.form-message, .form-message-successful {display: none;}
 
-.form-message-active, .form-message-successful-active {
-	display: block;
-}
+.form-message-active, .form-message-successful-active {display: block;}
 
 .form-group-wrong {
     border: 2px solid var(--third-red-color);
@@ -141,17 +127,11 @@ a {
     text-align: center;
 }
 
-#eye-open {
-    display: none;
-}
+#eye-open {display: none;}
 
-.show {
-    display: block;
-}
+.show {display: block;}
 
-.hide {
-    display: none;
-}
+.hide {display: none;}
 
 /*--------- ESTILOS TABLET ---------*/
 /* @media screen and (min-width: 768px) {
