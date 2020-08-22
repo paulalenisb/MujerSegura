@@ -211,7 +211,7 @@ icon: places[1].details.icon
 
 let contentStringS = 
 `<div class="container-alerts">
-<h2 class="title-friend">Amiga segura</h2>
+<h2 class="title-friend">Mujer Segura</h2>
 <div class="container-safe">
 <div class="user-info-friend">
 <img src="https://image.flaticon.com/icons/svg/149/149070.svg" alt="user" class="user-photo" />
@@ -247,7 +247,7 @@ let contentStringT =
 <h3 class="user-name">Drogueria Niza</h3>
 <b>Calle 127 #56-20</b>
 </div>
-<p class="description">Esta calle es poco iluminada y me he sentido insegura</p>
+<p class="description">En este lugar puedes sentirte segura y buscar ayuda si lo necesitas.</p>
 </div>`
 
 let infowindowT = new google.maps.InfoWindow({
