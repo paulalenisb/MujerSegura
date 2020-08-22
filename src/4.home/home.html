@@ -1,33 +1,26 @@
 <section class="home">
   <div id="map"></div>
-
+  <button class="calc">Calcular Ruta</button>
+  <!-- <footer>
+    <nav id="nav-mobile">
+      <ul>
+        <li class="nav-item-mobile">
+          <a href="#/home">
+            <img src="" alt="Ícono Home"/>
+          </a>
+        </li>
+        <li class="nav-item-mobile">
+          <a href="#/">
+            <img src="" alt="Ícono Denuncia"/>
+          </a>
+        </li>
+        <li class="nav-item-mobile">
+          <a href="#/">
+            <img src="" alt="Ícono Perfil"/>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </footer> -->
 </section>
-<script>
-  function initMap() {
-    
-    const options ={
-      zoom: 15,
-      location: {lat: 4.7110, lng: 74.0721}  
-    }
-    
-    //Mostrar el mapa de bogotá 
-    const map = new google.maps.Map(document.getElementById('map'), options);
-    
-    const marker = new google.maps.Marker({position: options.location, map: map});
-
-  };
-</script>
-<script defer
-  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDYg5fR3vipEh_uICxrvkE2yyJftAxHBpA&callback=initMap">
-</script>
-
-<!-- rules_version = '2';
-service cloud.firestore {
-  match /databases/{database}/documents {
-    match /{document=**} {
-      allow read, write: if
-          request.time < timestamp.date(2020, 9, 4);
-    }
-  }
-} -->
 

@@ -1,6 +1,6 @@
 import view from './login.html';
 import {regularExpressions, fields, validateInputsValue} from '../3.sign-up/funciones-signup';
-import {loginUser,authGoogleAccount} from '../firebase-functions/firebaseAuth';
+import {loginUser /* authGoogleAccount */} from '../firebase-functions/firebaseAuth';
 
 export default () => {
   const divElement = document.createElement('div');
@@ -78,7 +78,6 @@ export default () => {
 
     const email = divElement.querySelector('#email').value;
     const password = divElement.querySelector('#password-input').value;
- 
 
     if (fields.email && fields.password) {
       loginUser(email, password);

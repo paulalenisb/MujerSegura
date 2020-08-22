@@ -17,7 +17,9 @@
     "test": "jest --coverage",
     "start": "serve src/",
     "web": "webpack-dev-server",
-    "eslintfix": "eslint --fix"
+    "eslintfix": "eslint --fix",
+    "build": "webpack --mode producition",
+    "deploy": "rm -rf dist && npm run build && gh-pages -d dist"
   },
   "devDependencies": {
     "@babel/core": "^7.2.2",
@@ -30,6 +32,7 @@
     "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-jest": "^22.1.2",
     "file-loader": "^6.0.0",
+    "gh-pages": "^3.1.0",
     "html-loader": "^1.1.0",
     "html-webpack-plugin": "^4.3.0",
     "htmlhint": "^0.11.0",

@@ -3,7 +3,7 @@
 :root {
     --background-blue-color:#048ABF;
     --main-blue-color: #04B2D9;
-    --secondary-orange-color: #F27405;
+    --secondary-orange-color: #FF9A0D;
     --third-red-color:#E50027;
     --fourth-red-color: #00DC7F;
     --fifth-white-color:#FFFFFF;
@@ -22,10 +22,13 @@ body {font-family: var(--font);}
     left: 0;
     right: 0;
     height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .logo {
-    background-color: var(---secondary-orange-color);
+    background-color: greenyellow;
     width: 150px;
     height: 150px;
     /* height: auto; */
@@ -36,14 +39,13 @@ body {font-family: var(--font);}
     margin-top: 40px;
 } */
 
-
 .form-input, .form-group-input {
     background: none;
     display: flex;
     justify-content:center;
     text-align: center;
     border: 2px solid var(--fifth-white-color);
-    border-radius: 20px;
+    border-radius: 15px;
     width: 65vw;
     max-width: 350px;
     height: 40px;
@@ -54,7 +56,8 @@ body {font-family: var(--font);}
 }
 
 ::placeholder {
-    color: var(--fifth-white-color)
+    color: var(--fifth-white-color);
+    font-family: var(--font);
 }
 
 .form-group-input {
@@ -88,23 +91,24 @@ body {font-family: var(--font);}
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin: 35px auto;
-    width: 60%;
-    max-width: 250px;
+    margin: 25px auto;
+    width: 65vw;
+    max-width: 350px;
     height: 40px;
     border: none;
-    border-radius: 20px;
+    border-radius: 15px;
     outline: none;
     background-color: var(--secondary-orange-color);
+    font-family: var(--font);
     color: var(--fifth-white-color);
     box-shadow:5px 5px 5px rgba(0, 0, 0, 0.058);
     font-size: 16px;
-    font-weight: bold;
 }
 
 .text-sn-sign-up {
     text-align: center;
     margin-top: 15px;
+    color: var(--fifth-white-color);
 }
 
 a {

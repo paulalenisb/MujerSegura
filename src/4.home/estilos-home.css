@@ -4,7 +4,7 @@
 :root {
     --background-blue-color:#048ABF;
     --main-blue-color: #04B2D9;
-    --secondary-orange-color: #F27405;
+    --secondary-orange-color: #FF9A0D;
     --third-red-color:#E50027;
     --fourth-red-color: #00DC7F;
   }
@@ -14,5 +14,28 @@
     width: 100%;
   }
 
+  /* 
+  footer{
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    bottom: 0;
+    background-color: $medium-blue;
+  }
+  #nav-mobile ul{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      list-style-type: none;
+      padding: 0;
+      margin: 5px 0;
+      height: 60px;
+  }
+  #nav-mobile-tablet img {
+    width: 40px;
+    height: auto;
+  }
+  */
+  
 
 

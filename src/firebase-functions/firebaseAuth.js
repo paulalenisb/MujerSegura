@@ -83,7 +83,7 @@ export const loginUser = (email, password) => {
 };
 
 /* ------ AUTH GOOGLE -------*/
-export const authGoogleAccount = () => {
+/* export const authGoogleAccount = () => {
   const provider = new firebase.auth.GoogleAuthProvider();
 
   auth
@@ -102,7 +102,7 @@ export const authGoogleAccount = () => {
     .catch((error) => {
       console.error(error);
     });
-};
+}; */
 
 /* ------ AUTH FACEBOOK-------*/
 
