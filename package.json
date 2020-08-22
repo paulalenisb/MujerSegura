@@ -18,7 +18,7 @@
     "start": "serve src/",
     "web": "webpack-dev-server",
     "eslintfix": "eslint --fix",
-    "build": "webpack --mode producition",
+    "build": "webpack --mode production",
     "deploy": "rm -rf dist && npm run build && gh-pages -d dist"
   },
   "devDependencies": {
