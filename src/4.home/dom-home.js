@@ -1,10 +1,15 @@
 import view from "./home.html";
 import "./estilos-home.css";
 import "../firebase-functions/firebaseConfig";
+import Swal from 'sweetalert2';
 
 export default () => {
   const divElement = document.createElement("div");
   divElement.innerHTML = view;
+  
+  Swal.fire({
+    title: 'Bienvenido'
+  });
   
   let places = [
     {
@@ -16,7 +21,8 @@ export default () => {
       },
       details: {
         title: "Bulevar Niza",
-        description: "Este es un lugar "
+        description: "Este es un lugar ",
+        icon: '../images/medical-mask.png'
       }
     },
     {
@@ -28,7 +34,8 @@ export default () => {
       },
       details: {
         title: "Universidad Nacional",
-        description: "Este es un lugar "
+        description: "Este es un lugar ",
+        icon: 'https://image.flaticon.com/icons/svg/564/564619.svg'
       }
     },
     {
@@ -40,8 +47,8 @@ export default () => {
       },
       details: {
         title: "Casa de Ana",
-        description: "Este es un lugar malvado "
-        //icon: ''
+        description: "Este es un lugar malvado ",
+        icon: 'https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png'
       }
     }  
   ]
@@ -59,8 +66,8 @@ export default () => {
     let coord = {lat:4.7110 ,lng: -74.0721};
       let map = new google.maps.Map(document.getElementById('map'),{
         zoom: 15,
-        center: coord
-        //icon: 
+        center: coord,
+        
       });
     
       const directionsService = new google.maps.DirectionsService();
@@ -73,7 +80,7 @@ export default () => {
     
     function calcRoute() {
       var start = places[0].location;
-      var end = places[2].location;
+      var end = places[1].location;
       var request = {
         origin: start,
         destination: end,
@@ -89,11 +96,32 @@ export default () => {
         console.log(place, i )
         return new google.maps.Marker({
           position: places[i].location,
-  
+          icon: places[i].details.icon,
           map: map
         });
       })
+
+       // Add marker
+      // var marker = new google.maps.Marker({
+      //   position:{lat:42.4668,lng:-70.9495},
+      //   map:map,
+      //   icon:'https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png'
+      // });
+
+      
+      
+      /* let infoWindow = new google.maps.InfoWindow({
+        compose: 
+      }) */
   }
+
+  let infoWindow = new google.maps.InfoWindow({
+    content:'<h1>Lynn MA</h1>'
+  });
+  let firstPoint = places[1].location;
+  firstPoint.addListener('click', function(){
+    infoWindow.open(map, firstPoint);
+  });
       // new MarkerClusterer(map, markers,
       //   {imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'});
 
@@ -104,4 +132,5 @@ export default () => {
   
   return divElement;
 
+  
 };
