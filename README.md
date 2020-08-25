@@ -45,10 +45,10 @@ Nuestra investigación estuvo orientada en la movilización con enfoque de géne
 Los colores de nuestro proyecto representan la tranquilidad y el control de la situación, así como con la paz, el entendimiento y la protección. También se vinculan al cuidado de los demás y a la confianza y credibilidad. 
 
 #### Para mobile:
-<img src="src/images/Readme/Figma_home.jpg" width="400" style="margin:10px"> <img style="margin:10px" src="src/images/Readme/Figma_mapa.png" width="400"> <img style="margin:10px" src="src/images/Readme/Figma_ubicacion.png" width="400"> <img style="margin:10px" src="src/images/Readme/Figma_zonapeligro.png" width="400"> <img style="margin:10px" src="src/images/Readme/Figma_zonasegura.png" width="400"> <img style="margin:10px" src="src/images/Readme/Figma_MujerSegura.png" width="400"> <img style="margin:10px" src="src/images/Readme/Figma_post.png" width="400"> <img style="margin:10px" src="src/images/Readme/Figma_perfil.png" width="400"> 
-
 
 [Demo Figma](https://www.figma.com/proto/G2KuAo1tOJUjBC8lx3v7iL/Hackaton?node-id=30%3A0&viewport=622%2C502%2C0.1365688592195511&scaling=scale-down)
+
+<img src="src/images/Readme/Figma_home.jpg" width="300" style="margin:10px"> <img style="margin:10px" src="src/images/Readme/Figma_mapa.png" width="300"> <img style="margin:10px" src="src/images/Readme/Figma_ubicacion.png" width="300"> <img style="margin:10px" src="src/images/Readme/Figma_zonapeligro.png" width="300"> <img style="margin:10px" src="src/images/Readme/Figma_zonasegura.png" width="300"> <img style="margin:10px" src="src/images/Readme/Figma_mujersegura.png" width="300"> <img style="margin:10px" src="src/images/Readme/Figma_post.png" width="300"> <img style="margin:10px" src="src/images/Readme/Figma_perfil.png" width="300"> 
 
 
 ## 6. Contribuyentes
