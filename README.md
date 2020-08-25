@@ -21,7 +21,7 @@ Crear una propuesta para disminuir la brecha de género que existe en distintos 
 
 ## 2. Definición del producto
 
-App que genera recorridos seguros para las mujeres con puntos de consulta por cada paso que dan. En Mujer Segura podrás mapear tu trayecto y encontrar diferentes alertas de zonas inseguras, seguras, policia y otras mujeres que usan la app cerca mientrás te desplazas a mi pie por la ciudad. 
+App que genera recorridos seguros para las mujeres con puntos de consulta por cada paso que dan. En Mujer Segura podrás mapear tu trayecto y encontrar diferentes alertas de zonas inseguras, seguras, policia y otras mujeres que usan la app cerca mientrás te desplazas a mi pie por la ciudad. Nuestra aplicación se encuentra en la etapa de desarrollo.
 
 ## 3. Investigación UX
 
