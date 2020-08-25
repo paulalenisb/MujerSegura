@@ -1,7 +1,7 @@
 {
-  "name": "social-network",
+  "name": "mujer-segura",
   "version": "1.0.0",
-  "description": "Social Network @ Laboratoria",
+  "description": "Mujer segura @ Laboratoria Hackaton",
   "main": "src/main.js",
   "keywords": [
     "javascript",
@@ -15,8 +15,7 @@
     "stylelint": "stylelint --aei src/**/*.css",
     "pretest": "npm run htmlhint && npm run eslint && npm run stylelint",
     "test": "jest --coverage",
-    "start": "serve src/",
-    "web": "webpack-dev-server",
+    "start": "webpack-dev-server",
     "eslintfix": "eslint --fix",
     "build": "webpack --mode production",
     "deploy": "rm -rf dist && npm run build && gh-pages -d dist"
@@ -53,8 +52,6 @@
   },
   "dependencies": {
     "firebase": "^7.17.1",
-    "google-maps": "^4.3.2",
-    "sass-loader": "^9.0.2",
-    "sweetalert2": "^9.17.1"
+    "google-maps": "^4.3.2"
   }
 }
