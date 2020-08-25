@@ -48,7 +48,7 @@ Los colores de nuestro proyecto representan la tranquilidad y el control de la s
 
 [Demo Figma](https://www.figma.com/proto/G2KuAo1tOJUjBC8lx3v7iL/Hackaton?node-id=30%3A0&viewport=622%2C502%2C0.1365688592195511&scaling=scale-down)
 
-<img src="src/images/Readme/Figma_home.jpg" width="300" style="margin:10px"> <img style="margin:10px" src="src/images/Readme/Figma_mapa.png" width="300"> <img style="margin:10px" src="src/images/Readme/Figma_ubicacion.png" width="300"> <img style="margin:10px" src="src/images/Readme/Figma_zonapeligro.png" width="300"> <img style="margin:10px" src="src/images/Readme/Figma_zonasegura.png" width="300"> <img style="margin:10px" src="src/images/Readme/Figma_mujersegura.png" width="300"> <img style="margin:10px" src="src/images/Readme/Figma_post.png" width="300"> <img style="margin:10px" src="src/images/Readme/Figma_perfil.png" width="300"> 
+<p align="center"> <img src="src/images/Readme/Figma_home.jpg" width="300" style="margin:10px"> <img style="margin:10px" src="src/images/Readme/Figma_mapa.png" width="300"> <img style="margin:10px" src="src/images/Readme/Figma_ubicacion.png" width="300"> <img style="margin:10px" src="src/images/Readme/Figma_zonapeligro.png" width="300"> <img style="margin:10px" src="src/images/Readme/Figma_zonasegura.png" width="300"> <img style="margin:10px" src="src/images/Readme/Figma_mujersegura.png" width="300"> <img style="margin:10px" src="src/images/Readme/Figma_post.png" width="300"> <img style="margin:10px" src="src/images/Readme/Figma_perfil.png" width="300"> </p>
 
 
 ## 6. Contribuyentes
