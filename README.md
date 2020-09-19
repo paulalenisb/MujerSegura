@@ -4,7 +4,7 @@
 
 ## Índice
 
-* [1. Objetivo del proyecto](#1-definición-del-producto)
+* [1. Objetivo del proyecto](#1-objetivo-del-proyecto)
 * [2. Definición del producto](#2-definición-del-producto)
 * [3. Investigación UX](#3-investigación-ux)
 * [4. Historia de usuarios](#4-historia-de-usuarios)
@@ -21,7 +21,7 @@ Crear una propuesta para disminuir la brecha de género que existe en distintos 
 
 ## 2. Definición del producto
 
-App que genera recorridos seguros para las mujeres con puntos de consulta por cada paso que dan. En Mujer Segura podrás mapear tu trayecto y encontrar diferentes alertas de zonas inseguras, seguras, policia y otras mujeres que usan la app cerca mientrás te desplazas a mi pie por la ciudad. Nuestra aplicación se encuentra en la etapa de desarrollo.
+App que genera recorridos seguros para las mujeres con puntos de consulta por cada paso que dan. En Mujer Segura podrás mapear tu trayecto y encontrar diferentes alertas de zonas inseguras, seguras, policia y otras mujeres que usan la app cerca mientrás te desplazas a mi pie por la ciudad. Nuestra aplicación se encuentra en la etapa de desarrollo. [Explora el MVP de la app](anarativa09.github.io/mujersegura/)
 
 ## 3. Investigación UX
 
