@@ -56,7 +56,7 @@ Los colores de nuestro proyecto representan la tranquilidad y el control de la s
 
 <p align="center"> <img src="src/images/Readme/2doLugar_HLD2020.jpg" width="500"> </p>
 
-[Alejandra Ibáñez](https://github.com/Malejandraib)
+- Alejandra Ibáñez [@Malejandraib](https://github.com/Malejandraib)
 [Paula Lenis B](https://github.com/paulalenisb)
 [Ana Rátiva](https://github.com/AnaRativa09)
 [Tatiana Toro](https://github.com/tatianatorog)
